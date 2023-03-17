@@ -1,2 +1,12 @@
 # admin-odin
-I'm building this project to apply some of my CSS Grid skills and make an almost entirely grid-based layout so that I can better understand how to use it in my future websites adn applications
+This awesome dashboard was built by the one and only Reece Vela, and looks really awesome so you should check it out [reecevela.github.io/admin-odin](https://reecevela.github.io/admin-odin)
+
+This site I built to learn more about advanced HTML and CSS. It also uses JS to dynamically insert the repeated elements, and tie trending users profile pictures to their accounts.
+
+I honestly think this is the most beautiful site I've created thus far and am really happy with it. 
+
+Technologies used:
+- HTML5
+- CSS
+- JavaScript
+- SVG
