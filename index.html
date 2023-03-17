@@ -5,95 +5,67 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
   <link rel="stylesheet" href="./normalize.css">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <nav>
-    <ul class="links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Profile</a></li>
-      <li><a href="#">Messages</a></li>
-      <li><a href="#">History</a></li>
-      <li><a href="#">Tasks</a></li>
-      <li><a href="#">Communities</a></li>
-    </ul>
-    <ul class="settings">
-      <li><a href="#">Settings</a></li>
-      <li><a href="#">Support</a></li>
-      <li><a href="#">Privacy</a></li>
-    </ul>
-  </nav>
-  <div class="greeting-section">
-    <div class="search"></div>
-    <div class="account-icons">Reece Vela</div>
-    <div class="greeting">
-      <img src="" alt="">
-      <p>Hi there,</p>
-      <p>Reece Vela (@reecevela)</p>
-    </div>
-    <div class="actions">
-      <button>New</button>
-      <button>Upload</button>
-      <button>Share</button>
-    </div>
+  <div class="container">
+    <nav>
+      <div class="branding">
+        <h2>Dashboard</h2>
+      </div>
+      <ul class="links">
+        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+        <li><a href="#"><i class="fas fa-envelope"></i> Messages</a></li>
+        <li><a href="#"><i class="fas fa-history"></i> History</a></li>
+        <li><a href="#"><i class="fas fa-tasks"></i> Tasks</a></li>
+        <li><a href="#"><i class="fas fa-users"></i> Communities</a></li>
+      </ul>
+      <ul class="settings">
+        <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+        <li><a href="#"><i class="fas fa-question-circle"></i> Support</a></li>
+        <li><a href="#"><i class="fas fa-lock"></i> Privacy</a></li>
+      </ul>
+    </nav>
+    <main>
+      <header class="greeting-section">
+        <div class="greeting">
+          <img src="./images/profile-icons/profile1.svg" alt="Profile Picture">
+          <p>Hi there,</p>
+          <p>Reece Vela (@reecevela)</p>
+        </div>
+        <div class="search">
+          <button><i class="fas fa-search"></i></button>
+          <input type="text" placeholder="Search...">
+        </div>
+        <div class="actions">
+          <button><i class="fas fa-plus"></i> New</button>
+          <button><i class="fas fa-upload"></i> Upload</button>
+          <button><i class="fas fa-share-alt"></i> Share</button>
+        </div>
+      </header>
+      <section>
+        <h2>(Mock) Projects</h2>
+        <div class="projects" id="projects-container">
+          <!-- Dynamically added via JS -->
+      </section>
+      <section>
+        <h2>Announcements</h2>
+        <div class="announcements" id="announcements-container">
+          <!-- Dynamically added via JS -->
+        </div>
+      </section>
+      <section>
+        <h2>Trending</h2>
+        <div class="trending" id="trending-container">
+          <!-- Dynamically added via JS -->
+        </div>
+      </section>
+    </main>
   </div>
-  <h2>Projects</h2>
-  <div class="projects">
-    <div class="project">
-      <h3>Hello world!</h3>
-      <p>Description! goes! here!</p>
-      <div class="icons"></div>
-    </div>
-    <div class="project">
-      <h3>Press 'New' to add to the list!</h3>
-      <p>Description! goes! here!</p>
-      <div class="icons"></div>
-    </div>
-    <div class="project">
-      <h3>Portfolio Website</h3>
-      <p>Description! goes! here!</p>
-      <div class="icons"></div>
-    </div>
-  </div>
-  <h2>Announcements</h2>
-  <div class="announcements">
-    <div class="announcement">
-      <h3>Site Maintenance</h3>
-      <p>lorem ipsum dolor sit amet</p>
-    </div>
-    <div class="announcement">
-      <h3>Community Share Day</h3>
-      <p>lorem ipsum dolor sit amet</p>
-    </div>
-    <div class="announcement">
-      <h3>Updated Privacy Policy</h3>
-      <p>lorem ipsum dolor sit amet</p>
-    </div>
-  </div>
-  <h2>Trending</h2>
-  <div class="trending">
-    <div class="person">
-      <img src="" alt="">
-      <p class="name">@tegan</p>
-      <p class="description">World Peace Builder</p>
-    </div>
-    <div class="person">
-      <img src="" alt="">
-      <p class="name">@morgan</p>
-      <p class="description">Super Nifty Project</p>
-    </div>
-    <div class="person">
-      <img src="" alt="">
-      <p class="name">@kendall</p>
-      <p class="description">Life Changing App</p>
-    </div>
-    <div class="person">
-      <img src="" alt="">
-      <p class="name">@alex</p>
-      <p class="description">Traffic Avoid-inator</p>
-    </div>
-  </div>
-  <script src="./scripts.js"></script>
+  <script src="./scripts.js" defer></script>
 </body>
 </html>

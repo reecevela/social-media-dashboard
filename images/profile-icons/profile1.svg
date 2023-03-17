@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <circle cx="25" cy="25" r="23" fill="none" stroke="#FF3D3D" stroke-width="4"/>
+  <path d="M15 25 Q30 10 45 25 Q30 40 15 25" stroke="#FF3D3D" stroke-width="4" fill="none"/>
+  <path d="M25 15 Q40 30 25 45 Q10 30 25 15" stroke="#FF3D3D" stroke-width="4" fill="none"/>
+  <circle cx="25" cy="25" r="10" fill="none" stroke="#FF3D3D" stroke-width="4"/>
+</svg>
